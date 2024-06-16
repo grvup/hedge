@@ -8,22 +8,24 @@ Table of Contents
 
 
 ## Installation
-Clone the repository
-bash
-Copy code
-git clone https://github.com/grvup/hedge.git
-cd <project-folder>
-Install dependencies
-bash
-Copy code
-npm install
-Set up environment variables
-Copy .env.example to .env and configure necessary variables.
-Run the development server
-bash
-Copy code
-npm run dev
-Open http://localhost:3000 to view it in the browser.
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/grvup/hedge.git
+   cd <project-folder>
+2. **Install dependies:**
+
+   ```bash
+   npm install
+
+3. **Setup environment variables:**
+    Copy .env.example to .env and configure necessary variables.
+
+4. **Run the development server:**
+
+   ```bash
+   npm run dev
+5. Open http://localhost:3000 to view it in the browser.
 
 
 
