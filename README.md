@@ -30,26 +30,36 @@ Table of Contents
 
 
 ## Design Choices
-Folder Structure
+
+### Folder Structure
+
 The project follows a structured approach to separate concerns:
 
-/pages: Contains Next.js pages for routing.
-/src/app: Includes components, services, and utilities.
-State Management
-State management is handled using React's built-in useState and useEffect hooks for local component state. No external state management library is used to keep the project simple and lightweight.
+- **/pages**: Contains Next.js pages for routing.
+- **/src/app**: Includes components, services, and utilities.
 
-Styling
-Tailwind CSS is used for styling components. It provides utility classes for responsive and efficient styling without writing custom CSS.
+### State Management
 
-API Integration
-API calls are made using Axios, a promise-based HTTP client, to fetch orders and manage inventory data from a mock API server (localhost:5000/api).
+State management is handled using React's built-in `useState` and `useEffect` hooks for local component state. No external state management library is used to keep the project simple and lightweight.
+
+### Styling
+
+Styling is achieved using Tailwind CSS, which provides utility classes for responsive and efficient styling without writing custom CSS.
+
+### API Integration
+
+API calls are made using Axios, a promise-based HTTP client, to fetch orders and manage inventory data from a mock API server (`localhost:5000/api`).
+
 
 ## Array and Object Manipulations
-Orders and Items Management
-Orders Structure
+
+### Orders and Items Management
+
+#### Orders Structure
+
 Each order object in the application has the following structure:
-json
-Copy code
+
+```json
 {
   "id": 1,
   "customer": "Customer A",
@@ -59,21 +69,25 @@ Copy code
   ],
   "status": "Pending"
 }
-Array Manipulations
-Array manipulations such as sorting orders by customer name and filtering orders by status are implemented using JavaScript's array methods (sort, filter, etc.).
+```
+### Array Manipulations
+-Array manipulations such as sorting orders by customer name and filtering orders by status are implemented using JavaScript's array methods (sort, filter, etc.).
 
-Object Manipulations
-Object manipulations involve updating order status and managing inventory items through CRUD operations. These manipulations are handled using functions in src/app/services/api.ts.
+### Object Manipulations
+-Object manipulations involve updating order status and managing inventory items through CRUD operations. These manipulations are handled using functions in src/app/services/api.ts.
 
 
 ## Contributing
+
 If you would like to contribute to the project, please follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Create a new Pull Request.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
+
+---
 
 This README file provides comprehensive instructions on setting up and running the Next.js project, along with explanations of design choices and array/object manipulations within the codebase. Adjust the content based on your project's specifics and additional requirements as needed.
