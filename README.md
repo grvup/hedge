@@ -3,7 +3,7 @@ This project is a Next.js application that implements features for managing orde
 ### Table of Contents
 1. [Installation](#installation)
 2. [Design Choices](#design-choices)
-3. [Array and Object Manupulations](#array-and-object-manupulations)
+3. [Array and Object Manipulations](#array-and-object-manipulations)
 4. [Contributing](#contributing)
 
 
