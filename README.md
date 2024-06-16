@@ -1,10 +1,10 @@
-Overview
+## Overview
 This project is a Next.js application that implements features for managing orders and inventory. It includes pages for viewing orders, managing order details, and handling inventory items. This README provides instructions on setting up and running the project, as well as an overview of design choices and data manipulations.
 Table of Contents
-[Installation](#installation)
-[Design choices](#designchoices)
-[Array and object manupulation](#arrayandobjectmanupulation)
-[Contributing](#contributing)
+1. [Installation](#installation)
+2. [Design choices](#desig-nchoices)
+3. [Array and object manupulation](#array-and-object-manupulation)
+4. [Contributing](#contributing)
 
 
 ## Installation
